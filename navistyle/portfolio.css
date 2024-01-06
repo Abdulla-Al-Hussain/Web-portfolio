@@ -3,6 +3,8 @@ body{
 }
 nav {
      display: flex;
+     justify-content: space-between;
+     align-items: center;
 }
 .text-primary{
     color: #FD6E0A;
@@ -14,6 +16,8 @@ font-weight: 800;
 }
 nav > ul{
     display: flex;
+    align-items: center;
+   
 }
 nav li{
      list-style: none;
@@ -27,4 +31,9 @@ nav a{
 {
     border-radius: 5px;
 background: #FD6E0A;
+border: 0;
+color: white;
+font-size: 20px;
+font-weight: 700;
+padding: 15px 35px;
 }
